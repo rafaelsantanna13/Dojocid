@@ -3,25 +3,25 @@
     {
       "page": "boxe.html",
       "images": 4,
-      "bytes": 5541
+      "bytes": 5932
     },
     {
       "page": "index.html",
-      "images": 8,
-      "bytes": 9150
+      "images": 10,
+      "bytes": 13212
     },
     {
       "page": "judo-e-jiu-jitsu.html",
       "images": 4,
-      "bytes": 5731
+      "bytes": 6316
     },
     {
       "page": "professores.html",
       "images": 7,
-      "bytes": 11880
+      "bytes": 11963
     }
   ],
-  "checked_http_resources": 37,
-  "published_bytes": 2994982,
+  "checked_http_resources": 41,
+  "published_bytes": 3002272,
   "redirect_rules": false
 }
