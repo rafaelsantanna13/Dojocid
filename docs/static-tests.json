@@ -7,13 +7,13 @@
     },
     {
       "page": "index.html",
-      "images": 10,
-      "bytes": 13212
+      "images": 11,
+      "bytes": 15165
     },
     {
       "page": "judo-e-jiu-jitsu.html",
       "images": 4,
-      "bytes": 6316
+      "bytes": 8487
     },
     {
       "page": "professores.html",
@@ -21,7 +21,7 @@
       "bytes": 11963
     }
   ],
-  "checked_http_resources": 41,
-  "published_bytes": 3002272,
+  "checked_http_resources": 43,
+  "published_bytes": 3007531,
   "redirect_rules": false
 }

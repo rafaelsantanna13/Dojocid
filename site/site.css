@@ -67,7 +67,7 @@ nav a:hover { color: white; }
 .hero-photo img { width: 100%; height: 100%; min-height: 550px; position: absolute; inset: 0; object-fit: contain; object-position: center 65%; }
 .hero-photo figcaption { position: absolute; inset: auto 0 0; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 38px 24px 20px; background: linear-gradient(transparent, #000e); color: white; font-size: .7rem; }
 .hero-photo figcaption span:first-child { font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.hero-foot { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border-block: 1px solid var(--line); gap: 0; }
+.hero-foot { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); border-block: 1px solid var(--line); gap: 0; }
 .hero-foot a { padding: 20px 24px; font-size: .8rem; border-right: 1px solid var(--line); }
 .hero-foot a:first-child { padding-left: 0; }
 .hero-foot a:last-child { border: 0; }
@@ -143,9 +143,9 @@ address { font-style: normal; }
 .footer-nav { margin-top: 18px; flex-wrap: wrap; gap: 8px 18px; }
 .footer-nav a { font-size: .75rem; }
 .mobile-contact { display: none; }
-/* The two audiences share equal visual weight and distinct photographs. */
+/* Three audiences share equal visual weight and distinct photographs. */
 .audience-section { border-bottom: 1px solid var(--line); }
-.audience-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 26px; }
+.audience-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 26px; }
 .audience-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); scroll-margin-top: 110px; }
 .audience-photo { width: 100%; height: 310px; object-fit: contain; background: var(--raised); border-bottom: 1px solid var(--line); }
 .audience-content { display: flex; flex-direction: column; flex: 1; align-items: start; padding: 30px; }
@@ -251,4 +251,27 @@ address { font-style: normal; }
   .audience-callout { padding: 26px 22px; }
   .audience-links { flex-direction: column; align-items: start; }
   .hero-foot { grid-template-columns: 1fr; }
+}
+
+/* Equal columns on wide screens; stacked cards keep reading order on mobile. */
+.audience-content { padding: 26px; }
+.audience-content h3 { font-size: clamp(1.55rem,2.1vw,1.9rem); }
+.benefit-list { grid-template-columns: 1fr; }
+.women-section { scroll-margin-top: 110px; }
+.women-intro { max-width: 760px; margin-top: 24px; color: var(--muted); }
+.women-topics { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
+.women-topics article { padding: 30px; background: var(--surface); border: 1px solid var(--line); }
+.women-topics h3 { font-size: 1.55rem; margin-bottom: 20px; }
+.women-topics p,.women-contact > p { color: var(--muted); }
+.women-contact { margin-top: 30px; }
+.women-contact > p { font-size: .8rem; margin-top: 16px; }
+@media(max-width: 1000px) {
+  .audience-grid { grid-template-columns: 1fr; }
+  .audience-photo { height: 330px; }
+  .benefit-list { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media(max-width: 600px) {
+  .benefit-list,.women-topics { grid-template-columns: 1fr; }
+  .audience-photo { height: 290px; }
+  .women-topics article { padding: 24px; }
 }
