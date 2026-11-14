@@ -8,7 +8,7 @@
     {
       "page": "index.html",
       "images": 14,
-      "bytes": 17247
+      "bytes": 17193
     },
     {
       "page": "judo-e-jiu-jitsu.html",
@@ -22,6 +22,6 @@
     }
   ],
   "checked_http_resources": 49,
-  "published_bytes": 3010686,
+  "published_bytes": 3010632,
   "redirect_rules": false
 }
