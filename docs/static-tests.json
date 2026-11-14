@@ -1,0 +1,27 @@
+{
+  "pages": [
+    {
+      "page": "boxe.html",
+      "images": 4,
+      "bytes": 4801
+    },
+    {
+      "page": "index.html",
+      "images": 6,
+      "bytes": 7255
+    },
+    {
+      "page": "judo-e-jiu-jitsu.html",
+      "images": 4,
+      "bytes": 4985
+    },
+    {
+      "page": "professores.html",
+      "images": 7,
+      "bytes": 9441
+    }
+  ],
+  "checked_http_resources": 36,
+  "published_bytes": 28385177,
+  "redirect_rules": false
+}

@@ -1,4 +1,3 @@
-Sitemap: https://dojocid.com.br/sitemap.xml
-
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://dojocid.pages.dev/sitemap.xml

@@ -8,7 +8,7 @@ for i,row in enumerate(r['selected']):
  if i == 16: continue  # Same photograph as Ana (11); original retained in ZIP.
  with zipfile.ZipFile('dojocid-corrigido.zip') as archive:
   key=next(k for k in archive.namelist() if k.replace('\\','/').endswith(row['path'][5:]))
-  im=ImageOps.exif_transpose(Image.open(io.BytesIO(archive.read(key)))).convert('RGB')
+  im=ImageOps.exif_transpose(Image.open(io.BytesIO(archive.read(key)))).convert('RGBA')
  for width in (480,1200):
   copy=im.copy();copy.thumbnail((width,width*2));copy.save(out/f'{names[i]}-{width}.webp','WEBP',quality=85,method=6)
  manifest[str(i)]={'slug':names[i],'width':im.width,'height':im.height,'source':row['path']}
