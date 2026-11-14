@@ -1,0 +1,36 @@
+name: Extrair site recuperado
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar ZIP
+        run: test -f dojocid-corrigido.zip
+      - name: Extrair arquivos
+        run: |
+          mkdir -p site
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          root=Path('site').resolve()
+          with ZipFile('dojocid-corrigido.zip') as z:
+              for item in z.infolist():
+                  target=(root/item.filename).resolve()
+                  if not target.is_relative_to(root):
+                      raise ValueError('Caminho inválido no ZIP')
+              z.extractall(root)
+          assert (root/'index.html').exists()
+          PY
+      - name: Commit do site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site
+          if ! git diff --cached --quiet; then
+            git commit -m "Publicar arquivos recuperados do Dojocid"
+            git push
+          fi
