@@ -292,3 +292,6 @@ address { font-style: normal; }
   .hero-mosaic img { height: 210px; }
   .hero-mosaic .hero-mosaic-main img { height: auto; }
 }
+
+.gallery-pair { grid-template-columns: repeat(2,minmax(0,1fr)); }
+@media(max-width: 600px) { .gallery-pair { grid-template-columns: 1fr; } }
