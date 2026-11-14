@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/",
+    "footerVisible": true,
+    "images": true,
+    "overflow": false
+  },
+  {
+    "path": "/judo-e-jiu-jitsu",
+    "footerVisible": true,
+    "images": true,
+    "overflow": false
+  },
+  {
+    "path": "/boxe",
+    "footerVisible": true,
+    "images": true,
+    "overflow": false
+  },
+  {
+    "path": "/professores",
+    "footerVisible": true,
+    "images": true,
+    "overflow": false
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "width": 320,
+    "route": "/",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 305,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "route": "/judo-e-jiu-jitsu",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 305,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "route": "/boxe",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 305,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "route": "/professores",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 6,
+    "h1": 1,
+    "scrollWidth": 305,
+    "viewport": 320
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 375,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "route": "/judo-e-jiu-jitsu",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 375,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "route": "/boxe",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 375,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "route": "/professores",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 6,
+    "h1": 1,
+    "scrollWidth": 375,
+    "viewport": 390
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 753,
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "route": "/judo-e-jiu-jitsu",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 753,
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "route": "/boxe",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 753,
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "route": "/professores",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 6,
+    "h1": 1,
+    "scrollWidth": 753,
+    "viewport": 768
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 1425,
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "route": "/judo-e-jiu-jitsu",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 1425,
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "route": "/boxe",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 0,
+    "h1": 1,
+    "scrollWidth": 1425,
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "route": "/professores",
+    "background": "rgb(16, 18, 19)",
+    "broken": [],
+    "details": 6,
+    "h1": 1,
+    "scrollWidth": 1425,
+    "viewport": 1440
+  }
+]
