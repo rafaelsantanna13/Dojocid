@@ -24,4 +24,4 @@ O ZIP de recuperação permanece intacto e contém todas as 221 imagens antigas,
 
 ## Verificação
 
-Consulte `docs/AUDITORIA.md`, os relatórios JSON de testes e `docs/screenshots/`. O domínio canônico de teste é `dojocid.pages.dev`; sua troca futura deve ser acompanhada de atualização do sitemap, robots e metadados em `scripts/build.py`.
+Consulte `docs/AUDITORIA.md`, os relatórios JSON de testes e `docs/screenshots/`. O domínio canônico de produção é `dojocid.com.br`; sitemap, robots e metadados já estão preparados em `scripts/build.py`. A conexão do domínio deve ser concluída no Cloudflare Pages após a publicação na main.

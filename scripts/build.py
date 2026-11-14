@@ -23,11 +23,11 @@ def gallery(items,title='No Dojocid'):
  return '<section class="section wrap"><div class="section-heading"><p class="eyebrow">Nosso espaço, nossa equipe</p><h2>'+title+'</h2></div><div class="'+layout+'">'+''.join('<figure>'+img(i,alt)+'<figcaption>'+e(alt)+'</figcaption></figure>' for i,alt in items)+'</div></section>'
 def render(path,title,desc,body):
  links=''.join(f'<a href="{url}"'+(' aria-current="page"' if path==url else '')+f'>{name}</a>' for url,name in routes)
- canonical='https://dojocid.pages.dev'+path
+ canonical='https://dojocid.com.br'+path
  doc=f'''<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{canonical}">
-<meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://dojocid.pages.dev/images/brasao-1200.webp">
+<meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://dojocid.com.br/images/brasao-1200.webp">
 <meta name="theme-color" content="#101213"><meta name="color-scheme" content="dark"><link rel="icon" type="image/webp" href="/images/brasao-480.webp"><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script></head>
 <body><a class="skip" href="#conteudo">Pular para o conteúdo</a>
 <header><div class="wrap header-inner"><a class="brand" href="/" aria-label="Dojocid — início"><img src="/images/brasao-480.webp" width="52" height="52" alt="" loading="eager"><span>DOJOCID<small>ARTES MARCIAIS</small></span></a>
@@ -62,6 +62,6 @@ for i,p in enumerate(people):
  body+=f'<article id="professor-{i}" class="teacher-card">{img(p["image"],p["name"],"portrait",i==0)}<div class="teacher-content"><p class="eyebrow">{p["modality"]}</p><h2>{p["name"]}</h2><p class="teacher-excerpt">{e(excerpt)}</p><details><summary>Trajetória e formação <span aria-hidden="true">+</span></summary><div class="teacher-bio">{bio(p)}</div></details></div></article>'
 body+='</section>'
 render('/professores','Professores | Dojocid','Conheça Cid Nascimento, Juan Dias, Ana, Juan Joseph, Matheus Reis e Lucas, professores do Dojocid em Copacabana.',body)
-(SITE/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://dojocid.pages.dev'+p+'</loc></url>' for p,_ in routes)+'</urlset>\n')
-(SITE/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: https://dojocid.pages.dev/sitemap.xml\n')
+(SITE/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://dojocid.com.br'+p+'</loc></url>' for p,_ in routes)+'</urlset>\n')
+(SITE/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: https://dojocid.com.br/sitemap.xml\n')
 print('Generated four pages and sitemap.')
