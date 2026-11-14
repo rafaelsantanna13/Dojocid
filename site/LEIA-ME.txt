@@ -1,0 +1,1 @@
+Reconstrucao estatica independente baseada no ZIP enviado. Nao e replica visual exata. Imagens locais preservadas. Publique o conteudo desta pasta no Cloudflare Workers Static Assets ou Pages. Teste todas as paginas antes de alterar DNS.
