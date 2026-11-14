@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Cid Nascimento",
+    "modality": "Judô e Jiu-Jitsu",
+    "image": 25,
+    "paragraphs": [
+      "Com uma vida dedicada às artes marciais, o mestre iniciou no Judô aos 4 anos e forjou sua base na Universidade Gama Filho, onde treinou até os 18 anos. Aos 19 anos, conquistou a faixa preta de Judô e, seguindo sua paixão, fundou sua própria academia aos 24. Paralelamente, aprimorou sua técnica no \"chão\", o que o levou a conquistar a faixa preta de Jiu-Jitsu aos 28 anos pela equipe Checkmat. Cid possui ainda graduação em Educação Física combinando a prática e teoria no desenvolvimento de seus alunos.",
+      "Idiomas de instrução: 🇧🇷 Português | 🇺🇸 Inglês | 🇪🇸 Espanhol"
+    ]
+  },
+  {
+    "name": "Juan Dias",
+    "modality": "Jiu-Jitsu",
+    "image": 7,
+    "paragraphs": [
+      "Faixa preta pelo mestre Ricardinho (Chekmat), aos 26 anos é um competidor de elite e professor com experiência internacional, atendendo desde alunos iniciantes até atletas de alto rendimento.",
+      "​Principais Títulos: Campeão Sul-Americano IBJJF // Medalhista Brasileiro, Sul-Americano e Europeu IBJJF // Múltiplas vezes campeão de Opens e AJP Tour (Nacional e Internacional).",
+      "Idiomas de instrução: Português | Inglês | Espanhol"
+    ]
+  },
+  {
+    "name": "Ana",
+    "modality": "Judô e Jiu-Jitsu",
+    "image": 11,
+    "paragraphs": [
+      "Com uma vida dedicada ao tatame desde os 11 anos, Ana iniciou sua carreira internacional cedo: aos 15 anos já viajava o mundo pelo esporte, conquistando o pódio em seu primeiro Campeonato Mundial. Com uma didática desenvolvida desde muito nova, ela acumula vasta experiência ensinando Jiu-Jitsu tanto no Brasil quanto no exterior.",
+      "Principais Títulos e Vivência: Medalhista de Bronze no Campeonato Mundial (IBJJF) // Vice-campeã do Campeonato Brasileiro (IBJJF) // Ampla experiência competitiva nos maiores palcos do esporte (Mundial, Europeu e Brasileiro) // Múltiplas lutas e participações em Opens por diversos países.",
+      "Idiomas de instrução: Português | Inglês | Espanhol"
+    ]
+  },
+  {
+    "name": "Juan Joseph",
+    "modality": "Boxe",
+    "image": 23,
+    "paragraphs": [
+      "Atleta e instrutor no Boxe Para Todos. Praticante desde os 7 anos, Juan é bi-campeão estadual e dono de um cartel impecável: invicto em 23 lutas, com 100% de vitórias por nocaute. Sua técnica de elite, formada pela Associação de Pugilismo Brasileira, foi refinada diretamente com a Seleção Brasileira e lendas do esporte como Acelino \"Popó\" Freitas e o medalhista olímpico Esquiva Falcão. Ele traz a performance de um campeão para o seu treino."
+    ]
+  },
+  {
+    "name": "Matheus Reis",
+    "modality": "Judô e Jiu-Jitsu",
+    "image": 14,
+    "paragraphs": [
+      "Para Matheus, o tatame sempre foi muito mais do que um local de treino; foi o onde o seu destino foi reescrito. Ele chegou ao Dojocid aos 12 anos, um garoto ainda pequeno em estatura, mas com uma força de vontade inabalável. Foi ali que ele encontrou um refúgio e foi acolhido pelo Mestre como um filho, recebendo orientação não apenas técnica, mas conselhos que construíram seu senso de responsabilidade e seu caráter para a vida. Hoje, o menino que teve sua realidade transformada pela arte marcial é um atleta Faixa Preta de Judô, Faixa Marrom de Jiu-Jitsu e um dos professores da casa, dono de uma técnica suave e refinada. Em suas aulas, Matheus transmite muito mais que movimentos: ele repassa o acolhimento, a disciplina e a esperança que  moldaram a sua história."
+    ]
+  },
+  {
+    "name": "Lucas",
+    "modality": "Judô e Jiu-Jitsu",
+    "image": 13,
+    "paragraphs": [
+      "A trajetória de Lucas é a prova viva de que o esporte constrói fundações sólidas para a vida. Ele iniciou nas artes marciais muito cedo, pisando no tatame aos 6 anos de idade. Entre os 9 e os 14 anos, ele construiu um histórico competitivo sólido, participando de mais de 20 campeonatos e conquistando mais de 19 medalhas de ouro. No entanto, sua maior vitória não se resume aos pódios, mas ao caráter e foco em seus objetivos. A resiliência, a constância e o foco inabalável que aprendeu lutando tornaram-se os alicerces de sua personalidade. Hoje, além de ser atleta e professor no Dojocid, Lucas é acadêmico na reta final do curso de Fisioterapia, dando um exemplo de que mente e corpo se completam no caminho do desenvolvimento pessoal."
+    ]
+  }
+]
