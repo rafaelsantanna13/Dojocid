@@ -1,0 +1,102 @@
+[
+  {
+    "duplicates": [],
+    "heroImages": [
+      {
+        "alt": "Formação infantil: aprendizado no tatame do Dojocid",
+        "height": 204,
+        "loaded": true,
+        "width": 272
+      },
+      {
+        "alt": "Praticantes de jiu-jitsu no Dojocid",
+        "height": 210,
+        "loaded": true,
+        "width": 130
+      },
+      {
+        "alt": "Adultos treinando no tatame do Dojocid",
+        "height": 210,
+        "loaded": true,
+        "width": 130
+      }
+    ],
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "duplicates": [],
+    "heroImages": [
+      {
+        "alt": "Formação infantil: aprendizado no tatame do Dojocid",
+        "height": 253,
+        "loaded": true,
+        "width": 337
+      },
+      {
+        "alt": "Praticantes de jiu-jitsu no Dojocid",
+        "height": 210,
+        "loaded": true,
+        "width": 163
+      },
+      {
+        "alt": "Adultos treinando no tatame do Dojocid",
+        "height": 210,
+        "loaded": true,
+        "width": 163
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "duplicates": [],
+    "heroImages": [
+      {
+        "alt": "Formação infantil: aprendizado no tatame do Dojocid",
+        "height": 290,
+        "loaded": true,
+        "width": 711
+      },
+      {
+        "alt": "Praticantes de jiu-jitsu no Dojocid",
+        "height": 240,
+        "loaded": true,
+        "width": 349
+      },
+      {
+        "alt": "Adultos treinando no tatame do Dojocid",
+        "height": 240,
+        "loaded": true,
+        "width": 349
+      }
+    ],
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "duplicates": [],
+    "heroImages": [
+      {
+        "alt": "Formação infantil: aprendizado no tatame do Dojocid",
+        "height": 290,
+        "loaded": true,
+        "width": 601
+      },
+      {
+        "alt": "Praticantes de jiu-jitsu no Dojocid",
+        "height": 240,
+        "loaded": true,
+        "width": 293
+      },
+      {
+        "alt": "Adultos treinando no tatame do Dojocid",
+        "height": 240,
+        "loaded": true,
+        "width": 293
+      }
+    ],
+    "overflow": false,
+    "width": 1440
+  }
+]

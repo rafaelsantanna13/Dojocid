@@ -275,3 +275,20 @@ address { font-style: normal; }
   .audience-photo { height: 290px; }
   .women-topics article { padding: 24px; }
 }
+
+.functional-section { scroll-margin-top: 110px; }
+.functional-photo { width: 100%; height: 480px; object-fit: contain; background: var(--raised); border: 1px solid var(--line); }
+@media(max-width: 600px) { .functional-photo { height: 360px; } }
+
+/* The opening uses original photographs at modest display sizes. */
+.hero-mosaic { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-self: center; }
+.hero-mosaic figure { min-width: 0; background: var(--surface); border: 1px solid var(--line); }
+.hero-mosaic .hero-mosaic-main { grid-column: 1/-1; }
+.hero-mosaic img { width: 100%; height: 240px; object-fit: contain; background: var(--raised); }
+.hero-mosaic .hero-mosaic-main img { height: 290px; }
+.hero-mosaic figcaption { margin: 0; padding: 10px 12px; font-size: .68rem; }
+@media(max-width: 600px) {
+  .hero-mosaic { gap: 10px; }
+  .hero-mosaic img { height: 210px; }
+  .hero-mosaic .hero-mosaic-main img { height: auto; }
+}
