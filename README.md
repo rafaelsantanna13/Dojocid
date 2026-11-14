@@ -1,6 +1,6 @@
 # Dojocid
 
-Prévia da reconstrução: limpeza do acervo legado pendente de teste e autorização do usuário. Os arquivos antigos permanecem em site/, sem serem usados pelas novas páginas.
+Prévia da reconstrução: limpeza do acervo legado autorizada e aplicada. Todos os originais permanecem no ZIP preservado. A integração à main aguarda a revisão do usuário.
 
 Site institucional estático, independente do Hostinger. Produção: https://dojocid.pages.dev/.
 

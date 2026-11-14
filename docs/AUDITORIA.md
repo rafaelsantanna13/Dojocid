@@ -1,6 +1,6 @@
 # Auditoria e reconstrução — 14/11/2026
 
-**Estado atual: prévia para teste.** A pedido do usuário, os 221 arquivos de imagem e os quatro arquivos legados foram restaurados em site/. A limpeza descrita abaixo foi preparada e validada, mas está adiada. As páginas novas não carregam esses recursos antigos. A main não será integrada durante esta revisão. O tamanho do conjunto novo é aproximadamente 3 MB; o total publicado na prévia inclui também o acervo legado.
+**Estado atual: prévia para teste, com limpeza autorizada pelo usuário em 14/11/2026.** Os 221 arquivos de imagem e quatro arquivos legados foram removidos de site/ após nova conferência dos hashes com o ZIP preservado. O conjunto publicado tem aproximadamente 3 MB. A integração à main aguarda a revisão do usuário.
 
 ## Estado inicial e referências
 
