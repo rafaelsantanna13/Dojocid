@@ -37,7 +37,7 @@ gtag('config', 'G-MV0EZNNB3Q');
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://dojocid.com.br/images/brasao-1200.webp">
-<meta name="theme-color" content="#101213"><meta name="color-scheme" content="dark"><link rel="icon" type="image/webp" href="/images/brasao-480.webp"><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script></head>
+<meta name="theme-color" content="#101213"><meta name="color-scheme" content="dark"><link rel="icon" type="image/webp" href="/images/brasao-480.webp"><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script><script src="/whatsapp.js" defer></script></head>
 <body><a class="skip" href="#conteudo">Pular para o conteúdo</a>
 <header><div class="wrap header-inner"><a class="brand" href="/" aria-label="Dojocid — início"><img src="/images/brasao-480.webp" width="52" height="52" alt="" loading="eager"><span>DOJOCID<small>ARTES MARCIAIS</small></span></a>
 <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" hidden>Menu <span aria-hidden="true">☰</span></button><nav id="menu" aria-label="Navegação principal">{links}<a class="nav-contact" href="{WA}">Agendar aula ↗</a></nav></div></header>
