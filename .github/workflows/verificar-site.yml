@@ -24,6 +24,8 @@ jobs:
         run: |
           node --check site/site.js
           node scripts/check-analytics.cjs
+          node --check site/whatsapp.js
+          node scripts/check-whatsapp.cjs
           node --check scripts/serve.cjs
           node scripts/serve.cjs &
           SERVER_PID=$!
