@@ -25,7 +25,16 @@ def render(path,title,desc,body):
  links=''.join(f'<a href="{url}"'+(' aria-current="page"' if path==url else '')+f'>{name}</a>' for url,name in routes)
  canonical='https://dojocid.com.br'+path
  doc=f'''<!doctype html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="pt-BR"><head>
+<!-- Google tag: propriedade GA4 original do Dojocid -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MV0EZNNB3Q"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('js', new Date());
+gtag('config', 'G-MV0EZNNB3Q');
+</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://dojocid.com.br/images/brasao-1200.webp">
 <meta name="theme-color" content="#101213"><meta name="color-scheme" content="dark"><link rel="icon" type="image/webp" href="/images/brasao-480.webp"><link rel="stylesheet" href="/site.css"><script src="/site.js" defer></script></head>
