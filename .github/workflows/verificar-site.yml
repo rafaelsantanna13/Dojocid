@@ -23,6 +23,7 @@ jobs:
       - name: Verificar JavaScript e recursos HTTP
         run: |
           node --check site/site.js
+          node scripts/check-analytics.cjs
           node --check scripts/serve.cjs
           node scripts/serve.cjs &
           SERVER_PID=$!
