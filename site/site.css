@@ -295,3 +295,36 @@ address { font-style: normal; }
 
 .gallery-pair { grid-template-columns: repeat(2,minmax(0,1fr)); }
 @media(max-width: 600px) { .gallery-pair { grid-template-columns: 1fr; } }
+
+/* Mobile typography: centered editorial presentation, readable long-form content. */
+@media (max-width: 600px) {
+  .hero-copy, .section-heading, .section-heading-row, .page-intro,
+  .audience-content, .audience-callout, .women-section, .women-topics article,
+  .contact-inner, .contact-band, .split > div, .teacher-content,
+  .modality-content, .other-modalities, .footer-inner, .hero-mosaic figcaption {
+    text-align: center;
+  }
+  .hero-copy .eyebrow, .hero-actions, .hero-foot, .audience-content,
+  .audience-links, .other-modalities, .contact-inner {
+    align-items: center;
+  }
+  .hero-description, .section-heading-row > p, .women-intro {
+    margin-inline: auto;
+  }
+  .hero-actions, .audience-links { justify-content: center; }
+  .audience-content .button, .audience-content .secondary-button,
+  .contact-inner .button, .page-intro .button {
+    max-width: 100%;
+    text-align: center;
+  }
+  .benefit-list { width: 100%; text-align: center; }
+  .benefit-list li { text-align: center; }
+  .teacher-bio, .teacher-bio p, details[open] .teacher-bio,
+  .profile-feature p:not(.eyebrow) { text-align: left; }
+  .teacher-content details { text-align: left; }
+  .people-nav, .footer-nav { justify-content: center; }
+  .home-hero h1 span { white-space: normal; }
+  .hero-foot a { text-align: center; }
+  .footer-inner address { text-align: center; }
+  .other-modalities > div { text-align: center; }
+}
